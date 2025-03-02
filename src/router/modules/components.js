@@ -19,6 +19,12 @@ const componentsRouter = {
       meta: { title: 'Tinymce' }
     },
     {
+      path: 'el-up-load',
+      component: () => import('@/views/components-demo/el-up-load'),
+      name: 'ElUpload',
+      meta: { title: 'ElUpload' }
+    },
+    {
       path: 'markdown',
       component: () => import('@/views/components-demo/markdown'),
       name: 'MarkdownDemo',
